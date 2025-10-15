@@ -5,7 +5,7 @@ set -euo pipefail
 # Mirza Pro Installer
 # =========================
 APP_NAME="mirza_pro"
-APP_DIR="/var/www/${APP_NAME}"
+APP_DIR="/var/www/html/${APP_NAME}"
 REPO_URL="https://github.com/mahdiMGF2/mirza_pro.git"
 WEB_USER="www-data"
 NGINX_CONF="/etc/nginx/sites-available/${APP_NAME}.conf"
